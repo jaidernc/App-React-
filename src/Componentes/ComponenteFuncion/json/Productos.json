@@ -1,0 +1,92 @@
+[
+    {
+     "imagen":"https://http2.mlstatic.com/D_NQ_NP_973781-MLA48131216539_112021-O.webp", 
+     "Nombre":"Monitor gamer Samsung F24T35 led 24 azul y gris oscuro 100V/240V",
+     "precio":"$57.599",
+     "categoria": "monitores",
+     "id": 1 
+    },
+
+    {
+     "imagen":"https://http2.mlstatic.com/D_NQ_NP_987094-MLA52640304462_112022-O.webp",
+     "Nombre":"Monitor Curvo Gamer Gigabyte G34wqc A 34 Ultrawide Qhd 144hz",
+     "precio":"$279.999",
+     "categoria": "monitores",
+     "id":2
+    },
+
+    {
+     "imagen":"https://http2.mlstatic.com/D_NQ_NP_963816-MLA51077306225_082022-O.webp",
+     "Nombre":"Monitor Gamer Level Up 27 Curvo Full Hd 165hz 1ms Freesync",
+     "precio":"$ 85.999",
+     "categoria": "monitores",
+     "id":3
+    },
+
+    {
+     "imagen":"https://http2.mlstatic.com/D_NQ_NP_645571-MLA52697337337_122022-O.webp",
+     "Nombre":"GeForce RTX Serie 40",
+      "precio":"420.000",
+      "categoria": "tarjetas graficas",
+     "id":4
+    },
+
+     {
+     "imagen":"https://http2.mlstatic.com/D_NQ_NP_714103-MLA48789604551_012022-O.webp",
+     "Nombre":"GeForce RTX Serie 30",
+     "precio":"$ 399.000",
+     "categoria": "tarjetas graficas",
+     "id":5
+    },
+
+    {
+    "imagen":"https://http2.mlstatic.com/D_NQ_NP_901592-MLA32007146859_082019-O.webp",
+    "Nombre":"GeForce RTX Serie 20",
+    "precio":"$ 99.999",
+    "categoria": "tarjetas graficas",
+    "id":6
+    },
+
+    {
+        "imagen":"https://http2.mlstatic.com/D_NQ_NP_901456-MLA45375278350_032021-O.webp",
+        "Nombre":"GeForce GTX Serie16",
+        "precio":"$ 202.949",
+        "categoria": "tarjetas graficas",
+        "id":7
+    },
+    {
+        "imagen":"https://http2.mlstatic.com/D_NQ_NP_940844-MLA52267654288_112022-O.webp",
+        "Nombre":"Pc Armada Gamer Amd Ryzen 5 5600g 6-12 Núcleos 8gb",
+        "precio":"$ 125.000",
+        "categoria": "computadores",
+        "id":8
+       },
+       {
+        "imagen":"https://http2.mlstatic.com/D_NQ_NP_793033-MLA52097281868_102022-O.webp",
+        "Nombre":"Pc Armada Gamer Intel Core I5 10400 16gb Ram Nvidia Rtx 2060",
+        "precio":"$ 232.400",
+        "categoria": "computadores",
+        "id":9
+       },
+       {
+        "imagen":"https://http2.mlstatic.com/D_NQ_NP_968922-MLA52752056295_122022-O.webp",
+        "Nombre":"Pc Armada Gamer Amd Ryzen 5 4600g Rx Vega 8gb Ddr4 Ssd 240gb",
+        "precio":"$ 97.000",
+        "categoria": "computadores",
+        "id":10
+       },
+       {
+        "imagen":"https://http2.mlstatic.com/D_NQ_NP_661798-MLA52333691244_112022-O.webp",
+        "Nombre":"Pc Armada Amd Ryzen 3 3200g 480gb Ssd 8gb Video Vega 8",
+        "precio":"$ 86.456",
+        "categoria": "computadores",
+        "id":11
+       },
+    {
+        "imagen":"https://http2.mlstatic.com/D_NQ_NP_624020-MLA51364394844_082022-O.webp",
+        "Nombre":"Pc Gamer Amd Ryzen 5 5600g 16gb Ssd 480gb Radeon Vega Cuotas",
+        "precio":"$ 183.956",
+        "categoria": "computadores",
+        "id":12
+    }
+]
