@@ -1,14 +1,14 @@
-import React from 'react';
-import { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
-export const ItemCount = ({stockProductos}) =>{
+const ItemCount = ({stock,onAdd}) =>{
     
     const [counter,setCounter] = useState(1);
-    const [stock,setStock] = useState(stockProductos);
+    const [productoStock,setProductoStock] = useState(stock);
+    const [vendido,setVendido] = useState(false)
 
     const incrementarStock = () =>{
-        
-        if (counter < stock){
+        if (counter < productoStock){
             setCounter(counter + 1);
         }
     }
@@ -20,18 +20,26 @@ export const ItemCount = ({stockProductos}) =>{
     }
     
 
-    const onAdd = () =>{
-        if((stock > 0) && (counter < stockProductos)) {
+    const addTocart = (quantity) =>{
+        setVendido(true)
+        setCounter(0)
+        setProductoStock(productoStock - quantity)
+        onAdd(quantity)
+        /*if((counter <= stock)) {
         console.log("Agregaste:" + counter + "productos al carrito");
         setStock(stock - counter);
-        setCounter(0)
-        }
+        setCounter(1)
+        }*/
     }
+
+    useEffect(()=>{
+        setProductoStock(stock);
+    },[stock])
 
     return(
         <div className="container">
             <div className="row mb-3">
-                <div className='col-md-2'>
+                <div className='col-md-12'>
                 <div className="btn-group" role="group" aria-label="Basic outlined example">
                     <button type="button" className="btn btn-outline-primary" onClick={decrementarStock}>-</button>
                     <button type="button" className="btn btn-outline-primary">{counter}</button>
@@ -40,10 +48,11 @@ export const ItemCount = ({stockProductos}) =>{
                 </div>
             </div>
             <div className="row">
-                <div className="col-md-2">
-                    <button className="btn btn-outline-dark" onClick={onAdd}>Agregar al carrito</button>
+                <div className="col-md-12">
+                    {vendido ? <Link to={"/cart"} className="btn btn-outline-dark">Terminar mi Compra</Link> : <button className="btn btn-outline-dark" onClick={() => {addTocart(counter)}}>Agregar al carrito</button>}
                 </div>
             </div>
         </div>
     )
 }
+export default ItemCount;

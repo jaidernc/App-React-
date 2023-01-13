@@ -16,13 +16,13 @@ export const NavBar = () =>{
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav">
                                 <li className="nav-item">
-                                <NavLink className="nav-link " aria-current="page"to ={"/Category/computadores"}>Computadores</NavLink>
+                                <NavLink className="nav-link " aria-current="page"to={"/categoria/computadores"}>Computadores</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                <NavLink className="nav-link"to ={"/Category/monitores"}>Monitores</NavLink>
+                                <NavLink className="nav-link"to={"/categoria/monitores"}>Monitores</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                <NavLink className="nav-link" to ={"/Category/tarjetas graficas"}>Tarjetas Graficas</NavLink>
+                                <NavLink className="nav-link" to={"/categoria/tarjetasGraficas"}>Tarjetas Graficas</NavLink>
                                 </li>
                             </ul>
                             </div>
